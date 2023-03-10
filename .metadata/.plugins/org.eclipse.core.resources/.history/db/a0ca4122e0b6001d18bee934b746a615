@@ -1,0 +1,9 @@
+package kodlama.io.rentACar.core.utilities.exceptions;
+
+import lombok.Data;
+
+@Data
+@
+public class ProblemDetails {
+	String message;
+}

@@ -1,0 +1,11 @@
+package kodlama.io.rentACar.core.utilities.exceptions;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+@
+public class ValidationProblemDetails extends ProblemDetails {
+	 private Map<String, String> validationErrrors;
+}

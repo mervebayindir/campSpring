@@ -1,0 +1,9 @@
+package kodlama.io.rentACar.business.rules;
+
+public class BrandBusinessRules {
+	
+	private Bran
+	public void checkIfBrandNameExists(String name) {
+		
+	}
+}

@@ -1,0 +1,19 @@
+package kodlama.io.rentACar.business.concretes;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import kodlama.io.rentACar.business.abstracts.ModelService;
+import kodlama.io.rentACar.business.responses.GetAllModelsResponse;
+
+@Service
+public class ModelManager implements ModelService {
+
+	@Override
+	public List<GetAllModelsResponse> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

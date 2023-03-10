@@ -1,0 +1,6 @@
+package kodlama.io.rentACar.business.requests;
+
+@Data
+public class CreateModelRequest {
+
+}

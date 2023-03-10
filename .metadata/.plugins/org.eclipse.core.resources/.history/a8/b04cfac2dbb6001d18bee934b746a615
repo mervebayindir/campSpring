@@ -1,0 +1,11 @@
+package kodlama.io.rentACar.business.rules;
+
+import kodlama.io.rentACar.dataAccess.abstracts.BrandRepository;
+
+public class BrandBusinessRules {
+	
+	private BrandRepository brandRepository;
+	public void checkIfBrandNameExists(String name) {
+		
+	}
+}
