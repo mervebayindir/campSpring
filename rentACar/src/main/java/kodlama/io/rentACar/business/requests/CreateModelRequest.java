@@ -12,10 +12,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class CreateModelRequest {
 	@NotNull //validation  ile boş bırakılamaz anotation
-//	@NotBlank //boşlukta olamaz
+	@NotBlank //boşlukta olamaz
 	@Size(min = 2, max =20)   //karakter sayısı min max
 	 private String name;
 	@NotNull
-//	@NotBlank
 	 private int brandId;
 }
